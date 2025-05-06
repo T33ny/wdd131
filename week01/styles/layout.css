@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background: mediumorchid;
+    background: rgb(85, 26, 100);
     grid-column: 1/4;
     padding-bottom: 105px;
     color: lightgoldenrodyellow;
@@ -60,7 +60,7 @@ aside {
 
 footer {
     text-align: center;
-    background: lightblue;
+    background: rgb(17, 151, 196);
     color: lightgoldenrodyellow;
     grid-column: 1/4;
     padding-top: 15px;
