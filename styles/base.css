@@ -8,7 +8,6 @@ body {
     font-variation-settings:
         "wdth" 100;
     display: grid;
-    grid-template: auto 1fr auto/ auto 1fr auto;
 }
 header {
     grid-column: 1/4;
@@ -55,7 +54,7 @@ nav a {
 }
 main {
     display: grid;
-    width: 97.5%;
+    /*width: 97.5%;*/
     margin: 1rem;  
     box-sizing: border-box; 
 }
@@ -66,20 +65,20 @@ main {
     text-indent: 20px;
     padding-bottom: 10px;
     margin: 5px;
-    float: left;
+    float: left;  
 }
 .right{
-    width:70%;
-}
-.left {
-    width: 28%;
+    width: 27%;
     padding-bottom: 115px;
 }
-
-main:after {
+.left {
+    width: 70%;
+    
+}
+.row:after {
     content:"";
     display: table;
-    clear:both;
+    clear: both;
 }
 .content_top {
     display: grid;
