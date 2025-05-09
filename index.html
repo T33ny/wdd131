@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Heather Stevens</title>
-    <meta name="author" content="Heather Stevens" />
-    <meta name="description" content="Home Page" />
+    <meta name="author" content="Heather Stevens">
+    <meta name="description" content="This is the WDD 131 Home Page for Heather Stevens">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <h1>WDD 131 : Heather Stevens</h1>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Heather Stevens</h1>
         <nav>
             <ul class="navigation">
                 <li><a href="https://www.linkedin.com/" class="active">LinkedIn</a></li>
@@ -33,32 +33,43 @@
             <div class="aboutMe">
                 <h2>About Me</h2>
                 <br>
-                <div class="content">
+                <div class="content_top">
                     <p>My name is Heather Stevens. I have lived in Ohio my 
-                    whole life. I have 7 children. My oldest is 28 and my
-                    youngest is 7. I have been a BYUI-pathway student since
+                    whole life. I have been a BYUI-pathway student since
                     fall 2024. I earned my 1st certificate in Graphic Design.
                     Hopefully, by the end of summer, I will have my 2nd certificate 
                     in Web and Computer Programming.</p>
-                    <img src="images/me_3.jpg" alt="picture of me"/>
+                    <img src="images/me_3.jpg" alt="picture of me">
+                </div>
+                <div class="content_bottom">
+                    <img src="images/fam.jpg" alt="picture of my family">
+                    <p>I have seven children. They range in age from 28 to 7 years old.
+                        Before my oldest daughter enlisted in the USAF last fall, 
+                        they all lived at home. I am used to having lots of people in the 
+                        house. My oldest 2 sons have served missions. My youngest 3 are still 
+                        in school. One junior, a 5th grader and a 1st grader. They are my
+                        life's greatest work.  
+                    </p>
+                    
                 </div>
             </div>
         </section>
         <section class="card">
-            <div class="hobbies"></div>
-            <h2>Hobbies</h2>
+            <div class="links">
+            <h2>Links</h2>
             <ul>
-                <br>
-                <li>Reading</li>
-                <li>Gardening</li>
-                <li>Puzzling</li>
-                <li>Piano</li>
+                <div class="div1">
+                    <li><a href="https://www.w3schools.com/" class="active">W3 Schools</a></li>
+                    <li><a href="https://dev.to/" class="active">Dev.to Community</a></li>
+                    <li><a href="https://github.com/" class="active">GitHub</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/" class="active">MDN Web Docs</a></li>
+                </div>
             </ul>
             </div>
         </section>
     </main>
     <footer>
-        <p><span>&copy</span><span id="currentyear"></span> &#9829 Heather Stevens &#9829 Ohio, USA</p>
+        <p><span>&copy;</span><span id="currentyear"></span> &#9829; Heather Stevens &#9829; Ohio, USA</p>
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
 </body>
