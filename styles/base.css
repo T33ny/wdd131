@@ -54,7 +54,6 @@ nav a {
 }
 main {
     display: grid;
-    /*width: 97.5%;*/
     margin: 1rem;  
     box-sizing: border-box; 
 }
@@ -68,7 +67,7 @@ main {
     float: left;  
 }
 .right{
-    width: 27%;
+    width: 28%;
     padding-bottom: 115px;
 }
 .left {
