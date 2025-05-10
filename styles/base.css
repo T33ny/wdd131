@@ -71,7 +71,6 @@ main {
 }
 .left {
     width: 70%;
-    
 }
 .row:after {
     content:"";
